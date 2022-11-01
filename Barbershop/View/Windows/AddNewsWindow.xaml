@@ -32,7 +32,7 @@
 
         <GroupBox Grid.Row="0" Grid.Column="1"
                   Header="Выберите дату проведения"
-                  VerticalAlignment="Center">
+                  VerticalAlignment="Top">
             <DatePicker/>
         </GroupBox>
 

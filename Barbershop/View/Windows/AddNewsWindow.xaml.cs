@@ -1,4 +1,5 @@
-﻿using System;
+﻿using intarface_kirillov.Barbershop.AppData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace intarface_kirillov.Barbershop.View.Windows
     /// </summary>
     public partial class AddNewsWindow : Window
     {
+        List<News> user;
         public AddNewsWindow()
         {
             InitializeComponent();
